@@ -1,0 +1,13 @@
+{
+    "name": "nowox/test-dompdf",
+    "require": {
+        "dompdf/dompdf": "^0.8.3",
+        "webfontkit/open-sans": "^1.0"
+    },
+    "authors": [
+        {
+            "name": "CHEVALLIER Yves",
+            "email": "ycr@csem.ch"
+        }
+    ]
+}
