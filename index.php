@@ -7,7 +7,7 @@ use Dompdf\Options;
 
 $options = new Options();
 $options->set('defaultFont', 'Open Sans');
-$options->set('fontDir', 'vendor/webfontkit/open-sans');
+$options->set('fontDir', 'vendor/webfontkit/open-sans/fonts');
 
 $dompdf = new Dompdf($options);
 $dompdf->loadHtml(file_get_contents('template.html'));
